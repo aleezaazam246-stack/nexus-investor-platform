@@ -1,0 +1,6 @@
+{
+  "name": "Nexus Investor Platform",
+  "description": "Unified collaboration platform for investors and entrepreneurs featuring scheduled meetings with conflict detection, a secure document chamber with e-signatures, a startup product catalog, and a ledger payment system.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
