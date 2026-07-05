@@ -1,20 +1,156 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Nexus – Investor & Entrepreneur Collaboration Platform
 
-# Run and deploy your AI Studio app
+A full-stack web application that connects investors and entrepreneurs to collaborate, schedule meetings, manage documents, conduct video calls, and track investment-related activities securely.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/9b91f606-438f-4f75-ad5d-cf6744e26c75
+## 🚀 Features
 
-## Run Locally
+- 🔐 JWT Authentication
+- 👤 Investor & Entrepreneur Dashboards
+- 👥 User Profiles
+- 📅 Meeting Scheduling
+- 🎥 Video Calling (WebRTC + Socket.IO)
+- 📄 Document Chamber
+- ✍️ E-Signature Support
+- 💳 Payment Simulation
+- 🔒 Role-Based Authorization
+- 🛡️ Secure APIs
+- 📊 Transaction History
 
-**Prerequisites:**  Node.js
+---
 
+## 🛠 Tech Stack
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Frontend
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- React Router
+- Axios
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+- JWT
+- bcrypt
+- Socket.IO
+- Multer
+- Nodemailer
+
+---
+
+## 📂 Project Structure
+
+```
+frontend/
+backend/
+README.md
+```
+
+---
+
+## ⚙️ Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/aleezaazam246-stack/nexus-investor-platform.git
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Configure Environment
+
+Create a `.env` file and add:
+
+```env
+PORT=5000
+MONGODB_URI=your_mongodb_connection
+JWT_SECRET=your_secret_key
+```
+
+### Run Project
+
+```bash
+npm run dev
+```
+
+---
+
+## 📌 Modules
+
+### Authentication
+- Register
+- Login
+- JWT Authentication
+- Profile Management
+
+### Meeting Scheduling
+- Create Meetings
+- Accept/Reject Requests
+- Calendar Integration
+- Conflict Detection
+
+### Video Calling
+- WebRTC
+- Socket.IO
+- Audio & Video Controls
+
+### Document Chamber
+- Upload Documents
+- Preview Files
+- E-Signatures
+- Version Tracking
+
+### Payments
+- Deposit
+- Withdraw
+- Transfer
+- Transaction History
+
+---
+
+## 🔒 Security
+
+- Password Hashing (bcrypt)
+- JWT Authentication
+- Input Validation
+- Role-Based Access Control
+- Protected APIs
+
+---
+
+## 🚀 Deployment
+
+Frontend: Vercel
+
+Backend: Render
+
+Database: MongoDB Atlas
+
+---
+
+## 📖 API Documentation
+
+API documentation is available using Swagger and Postman Collection.
+
+---
+
+## 👨‍💻 Author
+
+**Aleeza Azam**
+
+GitHub: https://github.com/aleezaazam246-stack
+
+---
+
+## 📄 License
+
+This project is developed for educational and internship purposes.
