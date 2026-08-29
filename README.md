@@ -136,6 +136,8 @@ Backend: Render
 Database: MongoDB Atlas
 
 ---
+Live Demo 
+https://nexus-investor-platform-git-main-aleezaazam246-stacks-projects.vercel.app/
 
 ## 📖 API Documentation
 
